@@ -1,0 +1,16 @@
+- name: Installing LAMP STACK
+  hosts: "all"
+  tasks:
+    - name: Global variables
+      include_vars:
+        file: config.yml
+    
+    - name: Run Docker
+      include_role:
+        name: docker
+
+    - name: Build and Run LAMP STACK
+      include_role:
+        name: lampstack
+ 
+   
