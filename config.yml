@@ -1,5 +1,5 @@
 docker_repo: docker-ce.repo
-docker_user: qfmtgalon
+docker_user: asheredrosolo
 
 web_docker_img_name: web
 web_docker_img_tag: latest
